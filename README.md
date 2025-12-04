@@ -8,10 +8,10 @@ Churn directly reduces active-user counts and growth. The Waze stakeholders want
 
 ## Data
 
-- Source & scope
+- Source & scope:
 Raw usage logs from the Waze app (session counts, drive summaries, timestamps, app interactions). Exact labels and extraction steps are documented in the jupyter notebook.
 
-- Samples & features
+- Samples & features:
 The notebook builds several engineered features. Six engineered features appear among the top-10 most important onces for the targer: km_per_hour, percent_sessions_in_last_month, total_sessions_per_day, percent_of_drives_to_favorite, km_per_drive, km_per_driving_day.
 These engineered aggregates substantially improved signal compared to raw columns.
 
